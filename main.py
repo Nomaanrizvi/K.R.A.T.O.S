@@ -32,7 +32,7 @@ def chat(prompt):
 
 def ai(prompt):
 
-    openai.api_key = "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"
+    openai.api_key = "(Your api key)"
     text=f"Response for the prompt: {prompt} \n****************\n\n\n\n\n"
 
     response = openai.ChatCompletion.create(
